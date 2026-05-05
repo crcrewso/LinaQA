@@ -91,7 +91,7 @@ Version 0.07
 Image sum from a set of images added. Image rescaling added. Nuclear medicine toolbar added. Toolbars can be made persistent in the settings. Implemented Maximum Count Rate, Simple Sensitivity, Planar Uniformity, Planar Spatial Resolution, Tomographic Uniformity, Tomographic Resolution, Tomographic Contrast and Centre of Rotation analysis. Added handling of multiframe images. Settings unit has been overhauled.
 
 Version 0.06
-Zip files can be uncompressed and displayed on the fly. ACR CT and ACR MRI Large tests have been added. Fixed broken gamma analysis. Force option added to "Settings/Pydicom". If this is set to True will try and load the file as a DICOM image. Useful for DICOM files with badly formed headers but can have unpredictable results. Imaging and DICOM toolbars have been added. Toolbars can be toggled on/off. Imaging auto window and Invert icons moved to Imaging tool bar along with Gamma comparison. DICOM Find, Add, Edit and Delete icons moved to DICOM toolbar. Gamma analysis and DICOM icons removed from Radiotherapy toolbar. This is a GUI redesign to enable future expansion. Compute average image from a set of images added to imaging toolbar.
+Zip files can be uncompressed and displayed on the fly. ACR CT and ACR MRI Large analyses have been added. Fixed broken gamma analysis. Force option added to "Settings/Pydicom". If this is set to True will try and load the file as a DICOM image. Useful for DICOM files with badly formed headers but can have unpredictable results. Imaging and DICOM toolbars have been added. Toolbars can be toggled on/off. Imaging auto window and Invert icons moved to Imaging tool bar along with Gamma comparison. DICOM Find, Add, Edit and Delete icons moved to DICOM toolbar. Gamma analysis and DICOM icons removed from Radiotherapy toolbar. This is a GUI redesign to enable future expansion. Compute average image from a set of images added to imaging toolbar.
 
 Version 0.05
 Images are now handled internally uncompressed. Saving an image will save it uncompressed. The entire dataset may be saved. The image invert flag is carried through to analysis methods. Where methods do not have an invert flag the images are explicitly inverted.
@@ -114,11 +114,11 @@ Implemented DICOM Tags, CatPhan, Picket Fence, 2D phantoms, VMAT and Winston-Lut
 See GIT log.
 
 9) To Do
-Run on PySide or PyQt, which ever is available.
-Integrate PDFs
+Restructure project
+Use internal PDF viewer
+Use bundled pylinac
 Implement integrity checking
-Add documentation
-Migrate to Qt6
+Migrate to Pyside6
 
 10) Known issues
 DICOM sequences cannot be inserted, deleted or edited.
