@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "LinaQA"
-copyright = "2025, AC Chamberlain"
+copyright = "2026, AC Chamberlain"
 author = "AC Chamberlain"
 release = "1.00"
 
