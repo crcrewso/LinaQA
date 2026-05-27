@@ -61,17 +61,25 @@ Install LinaQA
 Unzip LinaQA.zip into a suitable directory
 At the minconda command prompt navigate to the LinaQA directory
 start LinaQA by
->python LinaQA.pyw
+>linaqa.bat (Windows) or linaqa.sh (Linux)
 
 This installation method is temporary and will be replaced by the conventional pip install when LinaQA is stable.
 
 6) Use
-Open a console window (miniconda prompt for windows users), change to the above directory and run
-python LinaQA.pyw
+From version 0.8 LinaQA is started from scripts. Open a console window, change to the above directory and run:
+For Windows:
+linaqa.bat
 or
-python LinaQA.pyw \Path\to\DICOM\
+linaqa.bat \Path\to\DICOM\
 
-Open a file either from the menu or toolbar. Drag and drop from your favourite file manager is also supported. Note: For multiple files such as a CatPhan series the files must be selected in the file open dialog. You can use <ctrl>-A to select all files.
+For Linux
+linaqa.sh
+or
+linaqa.sh \Path\to\DICOM\
+
+Alternatively you can double click on the script from your file manager or create a shortcut.
+
+In LinaQA, open a file either from the menu or toolbar. Drag and drop from your favourite file manager is also supported. Note: For multiple files such as a CatPhan series the files must be selected in the file open dialog. You can use <ctrl>-A to select all files.
 
 Open the reference image if needed.
 
