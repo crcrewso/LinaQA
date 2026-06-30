@@ -941,7 +941,7 @@ class LinaQA(QMainWindow):
         cat.analyze(**param_list)
         self.show_results(cat)
 
-#    @check_valid_image
+    @check_valid_image
     @show_wait_cursor
     def analyse_picket_fence(self):
         stream = dataset_to_stream(self.imager.datasets[self.imager.index])
